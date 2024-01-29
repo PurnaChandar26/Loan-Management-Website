@@ -1,4 +1,4 @@
-# Loan Management App
+# Loan Management Website
 
 ## Overview
 
