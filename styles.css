@@ -1,0 +1,84 @@
+body {
+    font-family: 'Helvetica', sans-serif;
+    text-align: center;
+    background-color: #f8f3ec; /* Light orange background */
+    color: #664422; /* Dark brown text */
+}
+
+.container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #ffd9b3; /* Light orange background */
+    padding: 20px;
+    border: 2px solid #cc9966; /* Dark orange border */
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1, h2 {
+    font-weight: bold;
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #ff8000; /* Orange heading text */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+label {
+    margin-bottom: 15px;
+    color: #ff8000; /* Orange label text */
+}
+
+input, select {
+    padding: 12px;
+    border: 2px solid #cc9966; /* Dark orange border */
+    border-radius: 8px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+input[type="submit"] {
+    background-color: #ff8000; /* Orange submit button */
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #e67300; /* Darker orange on hover */
+}
+
+#borrower-dashboard, #lender-dashboard, #admin-dashboard {
+    display: none;
+}
+
+#borrower-dashboard, #lender-dashboard, #admin-dashboard {
+    background-color: #ffd9b3; /* Light orange background */
+    padding: 25px;
+    border: 2px solid #cc9966; /* Dark orange border */
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#loan-requests, #loan-payments, #transactions {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#loan-requests li, #loan-payments li, #transactions li {
+    padding: 12px;
+    border-bottom: 2px solid #cc9966; /* Dark orange border */
+    background-color: #ffe6cc; /* Lighter orange background */
+}
+
+#loan-requests li:last-child, #loan-payments li:last-child, #transactions li:last-child {
+    border-bottom: none;
+}
