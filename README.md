@@ -11,7 +11,7 @@ The Loan Management App is a web application designed to streamline the process 
   - Lender Dashboard
   - Admin Dashboard
 
-- **Loan Requests:**
+- **Loan Requests:** 
   - Users can submit loan requests through the application.
 
 - **Loan Payments:**
